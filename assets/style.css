@@ -1,0 +1,68 @@
+body {
+    background-color: #f2f2f2;
+}
+
+p {
+    font-size: 17px; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    color: rgb(50, 50, 50);
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 1.0;
+    letter-spacing: -0.1rem;
+}
+
+.dcc_control{
+    padding-bottom: 0px;
+}
+.dcc-range-slider{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.four.columns {
+    width: calc(100% / 6);
+}
+
+.eight.columns {
+    width: 80.3333333333%;
+}
+
+#right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pretty_container {
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.mini_container {
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+    width: 33.33%
+  }
+
+  .flex-display {
+    display: flex;
+  }
